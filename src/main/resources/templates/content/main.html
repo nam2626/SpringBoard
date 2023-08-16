@@ -60,7 +60,7 @@
 </style>
 </head>
 <body>
-<th:block layout:fragment="header" th:include="@{/fragments/header}"></th:block>
+<th:block th:include="fragments/header.html"></th:block>
 <div id="container">
   <table class="board">
     <tr>
@@ -104,6 +104,6 @@
     </tr>
   </table>
 </div>
-<th:block layout:fragment="footer" th:include="@{/fragments/footer}"></th:block>
+<th:block th:include="fragments/footer.html"></th:block>
 </body>
 </html>
